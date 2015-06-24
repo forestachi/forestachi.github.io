@@ -10,3 +10,5 @@
 
 - 2009年ぐらいからFlash屋さん(Adobe Flex3～Apache Flex4)
 
+Flex3の頃は最先端の技術→今はAdobeが窓から投げ捨てた泥船・・・。
+

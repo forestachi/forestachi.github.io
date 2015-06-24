@@ -1,0 +1,32 @@
+#slideview {
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  height: 500px;
+}
+
+#timerview {
+  border-width: 1px;
+  border-style: dotted;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  background-color: #87cefa;
+  color: #ffffff;
+  height: 300px;
+}
+
+h2 {
+  background-color: #87cefa;
+  font-weight: normal;
+  color: #ffffff;
+}
+

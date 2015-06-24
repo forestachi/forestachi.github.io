@@ -1,4 +1,8 @@
 #入力デバイスについてざっくり解説
 
-2015/06/10 t-tachibana
+<p class="footer">
+2015/06/10
+Fores Co., Ltd.
+staff t-tachibana
+</p>
 

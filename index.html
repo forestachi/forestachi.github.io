@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <script src="js/lib/react-0.12.2/build/react.js"></script> 
-    <script src="js/lib/react-0.12.2/build/JSXTransformer.js"></script> 
-    <script src="js/lib/jquery-2.1.4.min.js"></script> 
-    <script src="js/lib/marked.min.js"></script>
-    <link rel="stylesheet" href="css/hoge.css" type="text/css">
-    <title>hogehoge</title>
+    <!-- libs for forestslide -->
+    <script src="http://fb.me/react-0.13.0-rc1.js"></script> 
+    <script src="http://fb.me/JSXTransformer-0.13.0-rc1.js"></script> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    <script src="forestslide/lib/marked.min.js"></script>
+
+    <!-- forestslide -->
+    <script src="forestslide/slideview.jsx" type="text/jsx;harmony=true"></script>
+    <script src="forestslide/pageloader.js" type="text/jsx;harmony=true"></script> <!-- js file. bat, need convert es6 class to es5 -->
+    <script src="forestslide/timerview.jsx" type="text/jsx;harmony=true"></script> <!-- need timerview -->
+    <script src="forestslide/app.jsx" type="text/jsx;harmony=true"></script>
+
+    <link rel="stylesheet" href="forestslide/hoge.css" type="text/css">
+    <title>forestslide</title>
   </head>
   <body>
     <div id="slideview"></div>
     <div id="timerview"></div>
-
-    <script src="js/hellomd3.js"></script>
-    <script src="js/timerevent.js"></script> <!-- need timerview -->
-    <script src="js/keyevent.js"></script> <!-- need slideview -->
   </body>
 </html>
 
