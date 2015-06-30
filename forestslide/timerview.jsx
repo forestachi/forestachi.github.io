@@ -4,22 +4,24 @@ class TimerView extends React.Component {
   }
 
   componentDidMount() {
-    console.log("TimerView componentDidMount");
-  }
+    //console.log("TimerView componentDidMount");
+    this.setState({beginDate: new Date()});
+    this.timer = setInterval(this.tick.bind(this), 100);
+ }
 
   componentWillUnmount() {
+    //console.log("TimerView componentDidWillMount");
     clearInterval(this.timer);
   }
 
   startOnClick(e) {
-    console.log("TimerView startOnClick");
-    this.setState({beginDate: new Date()});
-    this.timer = setInterval(this.tick.bind(this), 100);
+    //console.log("TimerView startOnClick");
+    //this.setState({beginDate: new Date()});
+    //this.timer = setInterval(this.tick.bind(this), 100);
   }
 
   stopOnClick(e) {
-    console.log("TimerView stopOnClick");
-    this.tick();
+    //console.log("TimerView stopOnClick");
     clearInterval(this.timer);
   }
 
@@ -53,13 +55,52 @@ class TimerView extends React.Component {
       diff = currentMin + "m" + currentSec + "s";
     }
 
-    return (
-        <div>
-          <div>
-            <button type="button" onClick={this.startOnClick.bind(this)}>start</button>
+    var bodyWidthWithPx = $("#slideview").css("width");
+    var bodyWidth = parseInt(bodyWidthWithPx.replace("px", ""));
+
+    // set icon.x
+
+    var iconWidth = 50;
+    var limitSec = 300;
+    var paddingLeft = 5;
+    var paddingRight = 5;
+    var oneStep = (bodyWidth - iconWidth - paddingLeft - paddingRight) / limitSec;
+
+    if (isNaN(oneStep) || oneStep <= 0) {
+      oneStep = 1;
+    }
+
+    var newX = Math.floor(((currentMin * 60) + currentSec) * oneStep);
+
+    if (bodyWidth - iconWidth < newX) {
+      newX = bodyWidth - iconWidth;
+    }
+    //console.log("oneStep:" + oneStep + ", bodyWidth:" + bodyWidth + ", newX:" + newX);
+    var iconStyle = {
+      container: {
+        left: newX,
+        position: "relative"
+      }
+    };
+
+    var timerStyle = {
+      container: {
+        borderStyle: "dotted",
+        borderWidth: 1
+      }
+    };
+/*
+           <div>
+            <button disabled type="button" onClick={this.startOnClick.bind(this)}>start</button>
             <button type="button" onClick={this.stopOnClick.bind(this)}>stop</button>
           </div>
-          <p>progression:{diff}</p>
+ */
+    return (
+        <div style={timerStyle.container}>
+         <p>progression:{diff}</p>
+          <div>
+            <img src="./forestslide/hoge.gif" style={iconStyle.container} />
+          </div>
         </div>
     );
   }
