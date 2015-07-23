@@ -1,27 +1,22 @@
 class TimerView extends React.Component {
   constructor() {
     this.state = {beginDate: null, date: null};
+    this.timeout = false;
   }
 
   componentDidMount() {
-    //console.log("TimerView componentDidMount");
     this.setState({beginDate: new Date()});
     this.timer = setInterval(this.tick.bind(this), 100);
- }
+  }
 
   componentWillUnmount() {
-    //console.log("TimerView componentDidWillMount");
     clearInterval(this.timer);
   }
 
   startOnClick(e) {
-    //console.log("TimerView startOnClick");
-    //this.setState({beginDate: new Date()});
-    //this.timer = setInterval(this.tick.bind(this), 100);
   }
 
   stopOnClick(e) {
-    //console.log("TimerView stopOnClick");
     clearInterval(this.timer);
   }
 
@@ -41,17 +36,25 @@ class TimerView extends React.Component {
     }
 
     var current = "";
-    
+
     if (this.state.date) {
       current = this.state.date.getTime();
     }
 
     var diff = "";
-    
+    var limitSec = 300;
+
     if (this.state.beginDate && this.state.date) {
       var currentSec = Math.floor((this.state.date.getTime() - this.state.beginDate.getTime()) / sec);
       var currentMin = Math.floor(currentSec / 60);
       currentSec = currentSec - (currentMin * 60);
+
+      if (!this.timeout && limitSec <= (currentSec + currentMin * 60)) {
+        window.alert("終了の時間です。");
+        this.stopOnClick(null);
+        this.timeout = true;
+      }
+
       diff = currentMin + "m" + currentSec + "s";
     }
 
@@ -61,7 +64,6 @@ class TimerView extends React.Component {
     // set icon.x
 
     var iconWidth = 50;
-    var limitSec = 300;
     var paddingLeft = 5;
     var paddingRight = 5;
     var oneStep = (bodyWidth - iconWidth - paddingLeft - paddingRight) / limitSec;
@@ -75,7 +77,7 @@ class TimerView extends React.Component {
     if (bodyWidth - iconWidth < newX) {
       newX = bodyWidth - iconWidth;
     }
-    //console.log("oneStep:" + oneStep + ", bodyWidth:" + bodyWidth + ", newX:" + newX);
+
     var iconStyle = {
       container: {
         left: newX,
@@ -89,12 +91,7 @@ class TimerView extends React.Component {
         borderWidth: 1
       }
     };
-/*
-           <div>
-            <button disabled type="button" onClick={this.startOnClick.bind(this)}>start</button>
-            <button type="button" onClick={this.stopOnClick.bind(this)}>stop</button>
-          </div>
- */
+
     return (
         <div style={timerStyle.container}>
          <p>progression:{diff}</p>

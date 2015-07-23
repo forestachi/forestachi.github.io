@@ -3,26 +3,23 @@ class SlideView extends React.Component {
     this.state = {};
   }
 
-  componentDidMount() {
-    //console.log(this.props.src);
-  }
-
-  componentWillUnmount() {
-  }
-
   render() {
     var bodyWidthWithPx = $("#slideview").css("width");
     var bodyWidth = parseInt(bodyWidthWithPx.replace("px", ""));
     var iconWidth = 50;
     var paddingLeft = 5;
     var paddingRight = 5;
-    var oneStep = (bodyWidth - paddingLeft - paddingRight) / this.props.maxPage;
+    var oneStep = (bodyWidth - iconWidth - paddingLeft - paddingRight) / this.props.maxPage;
     var newX = 1;
 
     if (1 < this.props.currentPage) {
       newX = (this.props.currentPage - 1) * oneStep; // todo with padding-left and padding-right
     }
 
+    if (bodyWidth - paddingRight < newX + iconWidth) {
+      newX = bodyWidth - iconWidth - paddingRight - 1; // 1 is whitespace show right border
+    }
+    console.log("SlideView.render currentPage:" + this.props.currentPage + ", oneStep:" + oneStep + ", newX:" + newX + ", bodyWidth:" + bodyWidth);
     var pageIconStyle = {
       container: {
         left: newX,
