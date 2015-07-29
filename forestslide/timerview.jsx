@@ -63,7 +63,7 @@ class TimerView extends React.Component {
 
     // set icon.x
 
-    var iconWidth = 50;
+    var iconWidth = 25;
     var paddingLeft = 5;
     var paddingRight = 5;
     var oneStep = (bodyWidth - iconWidth - paddingLeft - paddingRight) / limitSec;
@@ -96,7 +96,7 @@ class TimerView extends React.Component {
         <div style={timerStyle.container}>
          <p>progression:{diff}</p>
           <div>
-            <img src="./forestslide/hoge.gif" style={iconStyle.container} />
+            <img src="./forestslide/ari_icon.jpg" style={iconStyle.container} />
           </div>
         </div>
     );

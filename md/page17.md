@@ -1,12 +1,11 @@
-##\’zŽè‡(ƒn[ƒhƒEƒFƒA•Ò)
+##ç”¨æ„ã—ãŸã‚‚ã®(3/4)
 
-- “V”Â‚ðŠO‚·Bƒvƒ‰ƒXƒhƒ‰ƒCƒoŽg—pB
+- SSD
 
-- ƒƒ‚ƒŠ‚ð‘}‚·BŽÎ‚ß‚É‘}‚µ‚Ä‚©‚ç‰¡‚É“|‚·B
+ADATA m.2 256GB \15k
 
-- SSD‚ð‘}‚·B¸–§ƒhƒ‰ƒCƒo‚ÅŒÅ’è‚·‚éB
+åº—å“¡ã«å‹§ã‚ã‚‰ã‚ŒãŸã®ã§å®‰ã„ãƒ¡ãƒ¼ã‚«ãƒ¼ã®ã«ã—ã¦ã—ã¾ã£ãŸãŒã€å€‹äººçš„ã«ã¯intel, samsung, plextorè¾ºã‚ŠãŒãŠã™ã™ã‚ã€‚
 
-- “V”Â‚ð•t‚¯‚éBƒvƒ‰ƒXƒhƒ‰ƒCƒoŽg—pB
+m.2â†’mSATAã‚’æ›´ã«å°ã•ãã—ãŸã‚‚ã®ã€‚ã‚±ãƒ¼ãƒ–ãƒ«ãƒ¬ã‚¹ã€‚
 
-- Žü•Ó‹@Ší‚ðÚ‘±‚·‚éB
 

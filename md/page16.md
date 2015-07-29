@@ -1,13 +1,15 @@
-##—pˆÓ‚µ‚½‚à‚Ì
+##ç”¨æ„ã—ãŸã‚‚ã®(2/4)
 
-- ƒfƒBƒXƒvƒŒƒC
-- ƒL[ƒ{[ƒh
-- ƒ}ƒEƒX
-- BD-Rƒhƒ‰ƒCƒu
+- ãƒ¡ãƒ¢ãƒª
 
-‘¼‚ÌPC—p‚Ì‚à‚Ì‚ð—¬—p
+DDR3L-1600 SO-DIMM 4GB x 2æžš \8k
 
-- ƒvƒ‰ƒXƒhƒ‰ƒCƒo
+SDRAMâ†’DDR SDRAMâ†’DDR2 SDRAMâ†’DDR3 SDRAMâ†’DDR4 SDRAM
 
-•W€ƒTƒCƒY(ƒP[ƒXŠJ‚¯—p)‚Æ¸–§ƒhƒ‰ƒCƒo(SSDŽæ‚è•t‚¯—p)
+Lâ†’ä½Žé›»åœ§ç‰ˆ(1.35Vã€‚é€šå¸¸ã¯1.5V)
+
+1600ã¯è»¢é€é€Ÿåº¦(1600MHz x 8byte / sec)
+
+SO-DIMMâ†’ãƒŽãƒ¼ãƒˆPCç­‰ã®çœã‚¹ãƒšãƒ¼ã‚¹PCå‘ã‘ã®ãƒ¡ãƒ¢ãƒªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+
 

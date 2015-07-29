@@ -1,12 +1,19 @@
-##\’zŽè‡(ƒ\ƒtƒgƒEƒFƒA•Ò)
+##ç”¨æ„ã—ãŸã‚‚ã®(4/4)
 
-- BD-Rƒhƒ‰ƒCƒu‚ÉWindows 8‚ÌDVD‚ð“ü‚ê‚Ä‚©‚ç‹N“®‚µ‚ÄƒCƒ“ƒXƒg[ƒ‹
+- OS
 
-- •Ê‚ÌPC‚Åƒ_ƒEƒ“ƒ[ƒh‚µ‚½ƒhƒ‰ƒCƒo‚ðUSBƒƒ‚ƒŠ‚É“ü‚ê‚Ä“]‘—‚µAƒCƒ“ƒXƒg[ƒ‹B
+Windows 8 Pro (DSP) \16k
 
-- Windows UpdateBXV‚ª143Œ‚®‚ç‚¢‚ ‚Á‚½B(•K{‚Å‚È‚¢‚à‚Ì‚ðŠÜ‚Þ)
+DSP(Delivery Service Partner)â†’ãƒ‘ãƒ¼ãƒ„ã¨æŠ±ãåˆã‚ã›è²©å£²ã•ã‚Œã¦ã‚‹ã‚„ã¤
 
-- ƒXƒgƒA‚©‚çWindows 8.1‚ðƒCƒ“ƒXƒg[ƒ‹B3GB‚®‚ç‚¢B
+- ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤
+- ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰
+- ãƒžã‚¦ã‚¹
+- BD-Rãƒ‰ãƒ©ã‚¤ãƒ–
 
-¦ 8.1‚É‚µ‚½ŒãAƒlƒbƒgƒ[ƒN‚ÉÚ‘±‚Å‚«‚È‚©‚Á‚½‚Ì‚ÅLAN‚Ìƒhƒ‰ƒCƒo‚ð“ü‚ê’¼‚µB
+ä»–ã®PCç”¨ã®ã‚‚ã®ã‚’æµç”¨
+
+- ãƒ—ãƒ©ã‚¹ãƒ‰ãƒ©ã‚¤ãƒ
+
+æ¨™æº–ã‚µã‚¤ã‚º(ã‚±ãƒ¼ã‚¹é–‹ã‘ç”¨)ã¨ç²¾å¯†ãƒ‰ãƒ©ã‚¤ãƒ(SSDå–ã‚Šä»˜ã‘ç”¨)
 

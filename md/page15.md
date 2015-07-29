@@ -1,40 +1,13 @@
-##—pˆÓ‚µ‚½‚à‚Ì
+##ç”¨æ„ã—ãŸã‚‚ã®(1/4)
 
-- ƒxƒAƒ{[ƒ“ƒLƒbƒg(ƒP[ƒXACPUAM/BA“dŒ¹)
+- ãƒ™ã‚¢ãƒœãƒ¼ãƒ³ã‚­ãƒƒãƒˆ(ã‚±ãƒ¼ã‚¹ã€CPUã€M/Bã€é›»æº)
 
 Intel NUC5i3RYH(Core i3, broadwell-U) \37k
 
-¦i3, i5, i7‚Ì·‚É‚Â‚¢‚Ä
+â€»i3, i5, i7ã®å·®ã«ã¤ã„ã¦
 
-‚Ç‚ê‚à4ƒRƒABŠî–{«”\(ƒNƒƒbƒNŽü”g”AƒLƒƒƒbƒVƒ…—e—Ê“™)‚Ì·‚É‰Á‚¦‚Ä
-i5, i7‚É‚ÍTB(Turbo Boost)‚ªAi7‚É‚ÍHTT(Hyper Threading Tecnology)‚ª‚ ‚éB
+ã©ã‚Œã‚‚4ã‚³ã‚¢ã€‚åŸºæœ¬æ€§èƒ½(ã‚¯ãƒ­ãƒƒã‚¯å‘¨æ³¢æ•°ã€ã‚­ãƒ£ãƒƒã‚·ãƒ¥å®¹é‡ç­‰)ã®å·®ã«åŠ ãˆã¦
+i5, i7ã«ã¯TB(Turbo Boost)ãŒã€i7ã«ã¯HTT(Hyper Threading Tecnology)ãŒã‚ã‚‹ã€‚
 
-ˆê•”‚ÌŒ^‚É‚ÍA‚‹@”\‚ÈIRIS (Pro) Graphics“‹ÚB
-
-
-- ƒƒ‚ƒŠ
-
-DDR3L-1600 SO-DIMM 4GB x 2–‡ \8k
-
-SDRAM¨DDR SDRAM¨DDR2 SDRAM¨DDR3 SDRAM¨DDR4 SDRAM
-
-L¨’á“dˆ³”Å(1.35VB’Êí‚Í1.5V)
-
-1600‚Í“]‘—‘¬“x(1600MHz x 8byte / sec)
-
-SO-DIMM¨ƒm[ƒgPC“™‚ÌÈƒXƒy[ƒXPCŒü‚¯‚Ìƒƒ‚ƒŠƒ‚ƒWƒ…[ƒ‹
-
-- SSD
-
-ADATA m.2 256GB \15k
-
-“Xˆõ‚ÉŠ©‚ß‚ç‚ê‚½‚Ì‚ÅˆÀ‚¢ƒ[ƒJ[‚Ì‚É‚µ‚Ä‚µ‚Ü‚Á‚½‚ªAŒÂl“I‚É‚Íintel, samsung, plextor•Ó‚è‚ª‚¨‚·‚·‚ßB
-
-m.2¨mSATA‚ðX‚É¬‚³‚­‚µ‚½‚à‚ÌBƒP[ƒuƒ‹ƒŒƒXB
-
-- OS
-
-Windows 8 Pro (DSP) \16k
-
-DSP(Delivery Service Partner)¨ƒp[ƒc‚Æ•ø‚«‡‚í‚¹”Ì”„‚³‚ê‚Ä‚é‚â‚Â
+ä¸€éƒ¨ã®åž‹ã«ã¯ã€é«˜æ©Ÿèƒ½ãªIRIS (Pro) Graphicsæ­è¼‰ã€‚
 

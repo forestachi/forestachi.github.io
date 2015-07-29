@@ -1,11 +1,11 @@
-##���@
+##動機
 
-- ���l��PC(Windows 8)�̏C���𗊂܂ꂽ(�񕜃f�B�X�N�쐬�̈�)
+- 他人のPC(Windows 8)の修理を頼まれた(回復ディスク作成の為)
 
-- Windows 8�n�����܂�G�������Ƃ��Ȃ�
+- Windows 8系をあまり触ったことがない
 
-- Windows 10�𓮂���������PC��p�ӂ�����
+- Windows 10を動かせそうなPCを用意したい
 
-- �ŋ߂̃n�[�h�E�F�A�����m���Ă�������
+- 最近のハードウェア事情を知っておきたい
 
 

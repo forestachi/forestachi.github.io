@@ -6,7 +6,7 @@ class SlideView extends React.Component {
   render() {
     var bodyWidthWithPx = $("#slideview").css("width");
     var bodyWidth = parseInt(bodyWidthWithPx.replace("px", ""));
-    var iconWidth = 50;
+    var iconWidth = 25;
     var paddingLeft = 5;
     var paddingRight = 5;
     var oneStep = (bodyWidth - iconWidth - paddingLeft - paddingRight) / this.props.maxPage;
@@ -38,12 +38,12 @@ class SlideView extends React.Component {
             <div dangerouslySetInnerHTML={{__html: marked(this.props.src)}} style={mainStyle.container} />
             <hr />
             <div>
-                <img src="./forestslide/hoge.gif" style={pageIconStyle.container} />
+                <img src="./forestslide/co_icon.jpg" style={pageIconStyle.container} />
             </div>
         </div>
     );
   }
 }
 
-SlideView.defaultProps = {currentPage: 1, maxPage: 10};
+SlideView.defaultProps = {currentPage: 1, maxPage: 22}; // FIXME ‚±‚±‚ÅŽw’è‚µ‚È‚­‚Ä‚à‚¢‚¢‚æ‚¤‚É‚µ‚½‚¢
 

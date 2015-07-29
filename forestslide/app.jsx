@@ -1,5 +1,5 @@
 var currentPage = 1;
-var maxPage = 11;
+var maxPage = 22;
 var keyEventHandler = new KeyEventHandler("md");
 $(window).keydown(keyEventHandler.keyDownHandler.bind(keyEventHandler));
 
